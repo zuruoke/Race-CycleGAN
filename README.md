@@ -26,11 +26,11 @@ In order to accomplish image translation in absence of training pairs, CycleGAN 
 
 In this project I'll adopt a powerful variant of GAN called [CycleGAN](https://arxiv.org/pdf/1703.10593.pdf) to build a model that can translate an image of a Negroid to a Mongoloid resemblance and vice-versa
 
-- Mongoloid: includes people of Asian descent, especially Eastern Asian
+- Mongoloid: includes people of Asian descent, especially Eastern Asian 
  
 - Negroid: includes people of African descent or black Americans
 
-All data was aggregated from [LFW](http://vis-www.cs.umass.edu/lfw/) and [Flickr](https://www.flickr.com/)
+All 30,254 images was aggregated from [LFW](http://vis-www.cs.umass.edu/lfw/) and [Flickr](https://www.flickr.com/)
 
 The Workflow for this kernel:
 
@@ -42,3 +42,12 @@ The Workflow for this kernel:
 - Create an Inference Graph to test the model
 
 # RESULTS
+
+![g11](https://user-images.githubusercontent.com/51057490/83197329-3acbe100-a135-11ea-8192-88963453c751.JPG)
+
+![17](https://user-images.githubusercontent.com/51057490/83197476-723a8d80-a135-11ea-981a-0c3a73f452fa.JPG)
+![zre](https://user-images.githubusercontent.com/51057490/83197429-5e8f2700-a135-11ea-9c7b-b5440dd41ac3.JPG)
+
+# CONCLUSION
+
+The Resultant Images are kind of distorted because of the amount of training images used, hence I'll recommend [Nvidia StyleGAN](https://arxiv.org/pdf/1812.04948.pdf) for this kind of task with large amount of Images  
