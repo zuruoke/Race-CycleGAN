@@ -14,8 +14,7 @@ The CycleGAN performs this image translation in absence of training pairs - it j
 
 The ability to perform image translation with unpaired data makes it so powerful, unique and robust as most conditional GANs deal with paired data, e.g Pix2Pix
 
-*you maybe wondering what do i mean by unpaired or paired data...* 
-![1_40iuLVgb0Xfny1zWybFArg](https://user-images.githubusercontent.com/51057490/83194891-45847700-a131-11ea-956d-0292a0396029.png)
+
 
 In order to accomplish image translation in absence of training pairs, CycleGAN introduces two (2) Discriminators & two (2) Generators with three losses losses associated with each of them:
 - Forward Cycle Consistency Loss
