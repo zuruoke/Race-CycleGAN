@@ -1,5 +1,5 @@
 # Race-CycleGAN
-Using the Powerful CycleGAN to translate image of different races from one race to another
+This Project involves using the Powerful CycleGAN to translate image of different races from one race to another
 Generative Adversarial Network (GAN) is the most interesting idea in the last 10 years quoted by Yann LeCun, regarded as the father of Convolutional Network
 
 There are many variants of GANs including: Pix2PixGAN, InfoGAN, CycleGAN, StarGAN, Nvidia-backed StyleGAN etc. 
